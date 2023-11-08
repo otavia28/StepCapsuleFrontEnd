@@ -1,0 +1,31 @@
+@import (reference) '~antd/es/style/themes/index';
+
+
+.pre {
+  margin: 12px 0;
+  padding: 12px 20px;
+  background: @input-bg;
+  box-shadow: @card-shadow;
+}
+
+.customCard {
+  //font-family: "PingFang SC";
+  font-weight: 450;
+  width: 300px; /* 设置宽度 */
+  height: 70px; /* 设置高度 */
+  border-radius: 8px; // 圆角
+  box-shadow: 2px 2px 1px 0 rgba(0,0,0,0.2); // 阴影
+}
+
+.scStyle {
+  display: flex;             // 使用 flex 布局
+  flex-direction: column;    // 设置主轴为垂直方向
+  align-items: center;       // 水平居中
+  height: 84vh;             // 高度设置为视窗的 100%
+  margin: 0;                 // 移除外边距
+  padding-top: 10vh;          // 页面高度的，从而使内容区域开始于页面高度的处
+  box-sizing: border-box;    // 使得padding计入宽高计算
+  color: lightgray;          // 文字颜色为灰色
+  font-size: 50px;           // 文字大小
+  font-weight: bold;         // 文字粗体
+}
